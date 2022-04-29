@@ -1,0 +1,36 @@
+{
+  "name": "@koalati/tool-template",
+  "version": "1.0.0",
+  "description": "A template for creating custom Koalati tools.",
+  "main": "tool.js",
+  "scripts": {
+    "test": "mocha --config=test/mocharc.json",
+    "debug": "npx @koalati/dev-tool-tester --url=\"https://koalati.com/\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koalatiapp/tool-template.git"
+  },
+  "keywords": [
+    "koalati",
+    "koalati-tool"
+  ],
+  "author": {
+    "name": "Koalati",
+    "email": "info@koalati.com",
+    "url": "https://koalati.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koalatiapp/tool-template/issues"
+  },
+  "homepage": "https://github.com/koalatiapp/tool-template#readme",
+  "devDependencies": {
+    "@koalati/dev-tool-tester": "^2.0.3",
+    "eslint": "^7.18.0",
+    "mocha": "^8.2.1"
+  },
+  "dependencies": {
+    "@koalati/result-builder": "^1.4.0"
+  }
+}

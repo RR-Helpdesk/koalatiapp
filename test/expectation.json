@@ -1,0 +1,23 @@
+[
+	{
+		"uniqueName": "your_test_unique_name",
+		"title": "Your test's user-friendly title",
+		"description": "Your test's user-friendly description.",
+		"weight": 1,
+		"score": 1,
+		"recommendations": [
+			["Add %attribute% attribute to the tags on your page to improve X", { "%attribute%": "title" }, "OPTIMIZATION"]
+		],
+		"snippets": ["<div>The faulty element in the page</div>"],
+		"table": [
+			[
+				"Table heading 1",
+				"Table heading 2"
+			],
+			[
+				"Table value 1",
+				"Table value 2"
+			]
+		]
+	}
+]
